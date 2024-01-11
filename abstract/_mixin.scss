@@ -1,0 +1,9 @@
+@mixin nav-link-style($color){
+    text-decoration: none;
+    color:$color;
+}
+
+@mixin defualt-list-style{
+    list-style: none;
+
+}

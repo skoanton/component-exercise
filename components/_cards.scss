@@ -1,0 +1,49 @@
+@import "../abstract/color";
+@import "../abstract/fonts";
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,20rem);
+    grid-template-rows: repeat(2,auto);
+    gap: 1rem;
+    margin-top: 5rem;
+    justify-content: center;
+
+    .card{
+      
+        border-bottom: 1px solid $color-primary-dark-light;
+        
+        &:first-child{
+            grid-column: span 2;
+
+        }
+               
+        .image{
+            background-color: $color-secondary-light;
+            display: flex;
+            flex-direction: column;
+            gap:4rem;
+            padding:1rem;
+            height: 20rem;
+            width: 100%;
+           .button{
+            height: 1rem;
+            align-self: flex-end;
+           }
+           .picture{          
+            align-self: center;
+            justify-self: center;
+           }
+        }
+
+       
+
+        .text{
+            display: flex;
+            flex-direction: column;
+            gap:0.75rem;         
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+    }
+}

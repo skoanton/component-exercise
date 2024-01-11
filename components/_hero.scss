@@ -1,0 +1,12 @@
+@import "../abstract/_color";
+@import "../abstract/fonts";
+
+.hero{
+    background-color: $color-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10rem;
+}

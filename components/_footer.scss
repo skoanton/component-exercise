@@ -1,0 +1,42 @@
+@import "../abstract/color";
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $color-secondary;
+    color: $color-primary;
+    padding: 2rem;
+    h2{
+        font-size: 1.625rem;
+        color: $color-primary;
+    }
+    
+    
+    nav ul{
+        li{
+            
+            @include defualt-list-style;
+
+        } a{
+            @include nav-link-style($color-primary);
+        }
+    }
+
+    nav, .about-us, .social-media-links,nav ul{
+        display: flex;
+        flex-direction: column;
+        gap:1rem; 
+    }
+
+    .about-us{
+    
+        width: 20rem;
+    }
+
+    .social-media-links .links{
+        display: flex;
+        gap: 1rem;
+    }
+
+}

@@ -1,0 +1,22 @@
+@import "../abstract/_color";
+@import "../abstract/fonts";
+@import "../abstract/mixin";
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+
+
+    ul{
+        display: flex;
+        gap: 2rem;
+    } li{
+        @include defualt-list-style;
+    }
+
+
+    a{
+        @include nav-link-style($color-primary-dark);
+    }
+}

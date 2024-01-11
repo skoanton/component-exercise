@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+}
+
+a {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+button {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.social-media-post h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.social-media-post p {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 10rem;
+}
+.header ul {
+  display: flex;
+  gap: 2rem;
+}
+.header li {
+  list-style: none;
+}
+.header a {
+  text-decoration: none;
+  color: #000000;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+}
+
+a {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+button {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.social-media-post h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.social-media-post p {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.hero {
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 10rem;
+}
+
+.hero button {
+  padding: 1rem;
+  border-radius: 100px;
+  border: none;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+}
+
+a {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+button {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.social-media-post h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.social-media-post p {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 20rem);
+  grid-template-rows: repeat(2, auto);
+  gap: 1rem;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.cards .card {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1725490196);
+}
+.cards .card:first-child {
+  grid-column: span 2;
+}
+.cards .card .image {
+  background-color: #BDBDBD;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 1rem;
+  height: 20rem;
+  width: 100%;
+}
+.cards .card .image .button {
+  height: 1rem;
+  align-self: flex-end;
+}
+.cards .card .image .picture {
+  align-self: center;
+  justify-self: center;
+}
+.cards .card .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.social-media-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 5rem 0;
+}
+.social-media-post .circle {
+  background-color: #BDBDBD;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 2rem;
+}
+footer h2 {
+  font-size: 1.625rem;
+  color: #ffffff;
+}
+footer nav ul li {
+  list-style: none;
+}
+footer nav ul a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer nav, footer .about-us, footer .social-media-links, footer nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+footer .about-us {
+  width: 20rem;
+}
+footer .social-media-links .links {
+  display: flex;
+  gap: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
